@@ -24,13 +24,25 @@ El análisis asintótico nace de la idea de simplificar. Es un metodo para descr
 Busca describir una funcion que sea mayor o igual que la complejidad de un algoritmo.
 |Clase|Crecimiento|
 |-|-|
-|||
-### CalCálculo de la notación Big-O
-#### Timepo
-```sh
-let bar             // O(1)
-if() {}             // O(1)
-for() {}            // O(n)
-while() {}          // O(n)
-for() { for() {} }  // O(n^2)
-```
+|O(1)|Constante|
+|O(log n)|Logaritmico|
+|O(n)|Lineal|
+|O(n²)|Cuadratico|
+|O(2^n)|Exponencial|
+|O(n!)|Factorial|
+### Timepo
+|Instruccion|Tiempo|
+|-|-|
+|let bar|O(1)|
+|if() {}|O(1)|
+|for() {}|O(n)|
+|while() {}|O(n)|
+|for() { for() {} }|O(n^2)|
+### Espacio
+|Instruccion|Tiempo|
+|-|-|
+|let bar|O(1)|
+|if() {}|O(1)|
+|for() {}|O(1)|
+|let resultado = [ 1, 2, ..., n ]|O(n)|
+|let dimensional = [ [2,4], [6,8] ]|O(n^2)|
