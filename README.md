@@ -30,7 +30,7 @@ Busca describir una funcion que sea mayor o igual que la complejidad de un algor
 |O(n²)|Cuadratico|
 |O(2^n)|Exponencial|
 |O(n!)|Factorial|
-### Timepo
+### Tiempo
 |Instruccion|Tiempo|
 |-|-|
 |let bar|O(1)|
